@@ -18,7 +18,7 @@ struct ContentView: View {
                 NavigationLink(destination: ProductView(name: "スイカ")){
                     Text("スイカ紹介ページへ").foregroundColor(Color.green)
                 }
-            }
+            }.background(Color.red)
         }
     }
 }
