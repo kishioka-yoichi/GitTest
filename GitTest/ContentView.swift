@@ -11,7 +11,8 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             VStack {
-                Text("テスと")
+                Text("タイトル").foregroundColor(Color.blue)
+                
                 NavigationLink(destination: ProductView(name: "みかん")){
                     Text("りんご紹介ページへ").foregroundColor(Color.green)
                 }
